@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end Application</title>
+  </head>
+  <body>
+    <header>
+      <h1>Application For Front-End Vacancy</h1>
+    </header>
+
+    <section id="skills">
+      <h2>Required Skills</h2>
+
+      <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>TYPESCRIPT</li>
+      </ol>
+    </section>
+
+    <section class="picture">
+      <img
+        src="front-end.jpg"
+        alt="A picture of what front-end code looks like on a code editor/IDE"
+        width="150"
+        height="200"
+      />
+    </section>
+
+    <!-- Application Form -->
+    <section class="form">
+      <form action="">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="applicant_name"
+          name="applicant_name"
+          placeholder="Enter Fullname"
+          required
+        />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="applicant_name"
+          placeholder="Enter Password"
+          required
+        />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="female" />Female
+        <input type="radio" id="gender" name="gender" value="male" />Male
+        <br /><br />
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option>--Select Country--</option>
+          <option value="south africa">South Africa</option>
+          <option value="kenya">Kenya</option>
+          <option value="nigeria">Nigeria</option>
+        </select>
+        <br /><br />
+        <label for="applicationDate">Date Applied:</label>
+        <input type="date" id="applicationDate" name="applicationDate" />
+        <input type="submit" />
+        <br /><br />
+        <h3 class="applicant_skills">
+          Which of the follwing skills do you have
+        </h3>
+        <input type="checkbox" name="applicant_skills" value="html" />HTML
+        <input type="checkbox" name="applicant_skills" value="css" />CSS
+        <input
+          type="checkbox"
+          name="applicant_skills"
+          value="typescript"
+        />Typescript
+        <input
+          type="checkbox"
+          name="applicant_skills"
+          value="javascript"
+        />Javascript
+      </form>
+    </section>
+
+    <!-- table of the hiring team -->
+    <section class="hiring-team">
+      <h3 class="hr">Hiring Team</h3>
+      <table class="table" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>mobile</th>
+            <th>emails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Blessing Ndlovu</td>
+            <td>47 Tugela Road</td>
+            <td>+27785412365</td>
+            <td>blessingN@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Siya Sithole</td>
+            <td>70 Buckler Road</td>
+            <td>+27825417856</td>
+            <td>siyaSthole05@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Nosi Majola</td>
+            <td>8 Rosebank Ave</td>
+            <td>+27725412589</td>
+            <td>majolanosi@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
